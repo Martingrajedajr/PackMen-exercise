@@ -15,7 +15,7 @@ var pos = 0;
     }
 
     function randomPac(){
-        return Math.floor(Math.random()*pacArray.length);
+        return Math.floor(Math.random() * pacArray.length);
     }
 
     // Factory to make a PacMan at a random position with random velocity
